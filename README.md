@@ -1,51 +1,118 @@
-# freeTradingBots
-This is a repository for free bots that you can use to trade at your own discretion and earn millions.
 
-Free Trading Bots Repository: Automate Your Trading Strategies
-Description
-Welcome to the Free Trading Bots Repository! This repository is your one-stop solution for all free and open-source trading bots across various platforms and languages. From cryptocurrency trading bots like Bitcoin, Ethereum, and other altcoins to traditional stock market trading, we've got you covered. Automate your trading strategies and optimize your profits without spending a dime on expensive bots.
+# Deriv Trading Bots
+
+Welcome to the Deriv Trading Bots repository! This repository contains a collection of trading bots designed to automate trading strategies on the Deriv platform. These bots help traders execute trades based on predefined market conditions, thereby enhancing trading efficiency and consistency.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Bots Included](#bots-included)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Overview
+This repository provides several trading bots that automate trading strategies on the Deriv platform. The bots are designed to help traders by automatically executing trades based on specific criteria, which can be customized to match different trading strategies.
+
+## Features
+- **Automated Trading**: Execute trades automatically based on predefined strategies.
+- **Customizable Parameters**: Adjust variables such as stake, target profit, and loss limits to fit your trading needs.
+- **Error Handling**: Bots are equipped with error handling to ensure smooth operation.
+- **Notifications**: Receive notifications about the trading status and results.
+
+## Installation
+To get started with the trading bots, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/deriv-trading-bots.git
+   ```
+
+2. **Navigate to the repository**:
+   ```bash
+   cd deriv-trading-bots
+   ```
+
+3. **Set up your environment**:
+   Ensure you have the necessary tools and dependencies installed to run the bots. Refer to the bot-specific documentation for any additional setup instructions.
+
+## Usage
+Each bot comes with its own configuration and usage instructions. To use a bot:
+
+1. **Open the bot script**:
+   Open the bot script file in your preferred code editor.
+
+2. **Customize the variables**:
+   Modify the variables such as stake, target profit, and loss limits to suit your trading strategy.
+
+3. **Upload the bot to Deriv**:
+   Follow Deriv's guidelines to upload and activate the bot on their platform.
+
+4. **Monitor the bot**:
+   Keep an eye on the bot's performance and make adjustments as necessary.
+
+## Bots Included
+### Ganhou Bot
+- **Description**: A bot that trades based on the over/under digits strategy.
+- **Key Variables**:
+  - `Stake`: Initial stake amount.
+  - `Loss`: Maximum allowable loss.
+  - `Target Profit`: Desired profit target.
+- **Features**:
+  - Automatic stake adjustment.
+  - Profit tracking.
+  - Success and warning notifications.
+
+### Perdeu Bot
+- **Description**: A high-frequency trading bot with loss management.
+- **Key Variables**:
+  - `Stake`: Initial stake amount.
+  - `Loss Limit`: Maximum allowable loss before resetting.
+  - `Recovery Multiplier`: Multiplier used to adjust stake after a loss.
+- **Features**:
+  - Loss recovery mechanism.
+  - Incremental stake adjustment.
+  - Total profit calculation.
+
+## Contributing
+Contributions are welcome! To contribute:
+
+1. **Fork the repository**:
+   Click the "Fork" button at the top of this page to create a copy of this repository in your account.
+
+2. **Create a new branch**:
+   ```bash
+   git checkout -b feature-branch-name
+   ```
+
+3. **Make your changes**:
+   Implement your feature or bug fix.
+
+4. **Commit your changes**:
+   ```bash
+   git commit -m "Description of the changes"
+   ```
+
+5. **Push to the branch**:
+   ```bash
+   git push origin feature-branch-name
+   ```
+
+6. **Open a pull request**:
+   Submit a pull request with a detailed description of your changes.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For questions, feedback, or support, please reach out:
+
+- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+- **Twitter**: [@your-twitter-handle](https://twitter.com/your-twitter-handle)
+
+Thank you for using and contributing to the Deriv Trading Bots repository. Happy trading!
 
 
-Keywords
-Free Trading Bots
-Crypto Trading Bots
-Stock Market Trading Bots
-Algorithmic Trading
-Automated Trading
-Forex Trading Bots
-Open Source Trading
-Python Trading Bot
-JavaScript Trading Bot
-Features
-Variety of Bots: Collection of bots for Forex, Stocks, and Cryptocurrency markets.
-Multi-Language Support: Bots are available in languages such as Python, JavaScript, Java, and more.
-Cross-Platform: Bots that can run on various platforms like Binance, MetaTrader, Coinbase, etc.
-Easy to Use: Well-documented code with setup guides for each bot.
-Community Support: A community of developers and traders contributing to the project.
-Table of Contents
-Installation
-Usage
-Contributing
-License
-FAQs
-Installation
-Follow the individual README files inside each bot's folder for installation instructions.
-
-Create an Account: 
-https://rb.gy/xqt44t
-
-Usage
-Check the guide inside each bot’s directory to learn how to deploy and customize the trading bot.
-
-Contributing
-Feel free to contribute to this repository by creating a pull request or opening an issue. For detailed contributing guidelines, check out the CONTRIBUTING.md file.
-
-License
-All bots in this repository are open-source under the MIT License. See the LICENSE file for details.
-
-FAQs
-Visit our FAQs section to find answers to commonly asked questions.
-
-Note: Trading involves risks. It's recommended to understand the risks before deploying any bot in a live trading environment.
-
-If you find this repository useful, please star it to make it more visible to the community. Happy Trading! 📈
